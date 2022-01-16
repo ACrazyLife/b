@@ -2,6 +2,11 @@
 title: Where did it go Wrong? - Chapter 43
 date: 2021-09-27
 tags: [Chapter, WDIGW]
+raw: 43
+hasp: 1
+hasn: 0
+novel: wdigw
+
 ---
 I spend the rest of the night figuring out what to do. In hindsight, I really should've let Ailsa punch me. I have no clue how to approach giving prisoners a job. 'Well, hindsight is 20/20, let's just focus on what I can do now.' After brainstorming 
 

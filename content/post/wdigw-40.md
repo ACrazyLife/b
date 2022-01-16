@@ -2,6 +2,10 @@
 title: Where did it go Wrong? - Chapter 40
 date: 2021-09-21
 tags: [Chapter, WDIGW]
+raw: 40
+hasp: 0
+hasn: 1
+novel: wdigw
 ---
 
 As I walked to Ailsa's carriage, I observed the guards following her. When Saven noticed my gaze, he turned around and smiled at me. I wondered how he could smile at a child after robbing them. Perhaps I was visiting the wrong place to find criminals.
@@ -91,3 +95,4 @@ She pointed to the elf on her right.
 I grabbed the back of my neck and started scratching it. My mind began to work at speeds I didn't think possible. Before I could say anything, Ailsa spoke again.
 
 "Rorik, what is a Noble's Obligation?"
+

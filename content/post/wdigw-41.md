@@ -2,6 +2,11 @@
 title: Where did it go Wrong? - Chapter 41
 date: 2021-09-22
 tags: [Chapter, WDIGW]
+raw: 41
+hasp: 1
+hasn: 1
+novel: wdigw
+
 ---
 
 

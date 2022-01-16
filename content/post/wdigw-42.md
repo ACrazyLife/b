@@ -2,6 +2,11 @@
 title: Where did it go Wrong? - Chapter 42
 date: 2021-09-25
 tags: [Chapter, WDIGW]
+raw: 42
+hasp: 1
+hasn: 1
+novel: wdigw
+
 ---
 
 "What nonsense are you talking about."
