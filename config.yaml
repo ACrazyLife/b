@@ -1,0 +1,38 @@
+baseURL: https://example.com
+languageCode: en-us
+defaultContentLanguage: en
+title: MaestChump Works
+theme: cupper-hugo-theme
+
+
+params:
+  description: All in the title.
+  homeMetaContent: All in the title
+  footer: 
+  # For more date formats see https://gohugo.io/functions/format/
+  navTitleText: M.C. Works
+  search: true
+
+menu:
+  nav:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Where did it go Wrong?
+      url: /wdigw
+      weight: 2
+    - name: All Posts
+      url: /post
+      weight: 3
+    - name: Tags
+      url: /tags/
+      weight: 4
+    - name: Discord
+      url: https://discord.gg/B746MyApVS
+      weight: 5
+    - name: Patreon
+      url: https://www.patreon.com/maestchump
+      weight: 6
+    - name: RSS
+      url: /index.xml
+      weight: 7
