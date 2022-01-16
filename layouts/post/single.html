@@ -38,14 +38,40 @@
 
     {{ partial "toc.html" . }}
 
-    <p style="text-align:center"> <a  href="{{ print ("/post/" ) (.Params.novel) ("-") (sub (int .Params.raw )  (int .Params.hasp )) }}">Prev</a> | <a href="/wdigw">Index</a> | <a  href="{{ print ("/post/" ) (.Params.novel) ("-") (add (int .Params.raw )  (int .Params.hasn)) }}"> Next</a>  </p>
+
+
    
+    <p style="text-align:center"> 
+        {{if eq  (int .Params.hasp ) 0}}
+            <a href="{{ print ("/") (.Params.novel) }}"> Prev </a>
+        {{else}}
+
+        <a  href="{{ print ("/post/" ) (.Params.novel) ("-") (sub (int .Params.raw )  (int .Params.hasp )) }}">Prev</a>
+        {{end}}
+            | <a href="{{ print ("/") (.Params.novel) }}">Index</a> | 
+        {{if eq (int .Params.hasn) 0}}    
+            <a href="{{ print ("/") (.Params.novel) }}"> Next </a>
+        {{else}}
+        <a  href="{{ print ("/post/" ) (.Params.novel) ("-") (add (int .Params.raw )  (int .Params.hasn)) }}"> Next</a>  </p>
+        {{end}}   
 
     {{ .Content }}
 
 
    
-      <p style="text-align:center"> <a  href="{{ print ("/post/" ) (.Params.novel) ("-") (sub (int .Params.raw )  (int .Params.hasp )) }}">Prev</a> | <a href="/wdigw">Index</a> | <a  href="{{ print ("/post/" ) (.Params.novel) ("-") (add (int .Params.raw )  (int .Params.hasn)) }}"> Next</a>  </p>
+      <p style="text-align:center"> 
+        {{if eq  (int .Params.hasp ) 0}}
+            <a href="{{ print ("/") (.Params.novel) }}"> Prev </a>
+        {{else}}
+
+        <a  href="{{ print ("/post/" ) (.Params.novel) ("-") (sub (int .Params.raw )  (int .Params.hasp )) }}">Prev</a>
+        {{end}}
+            | <a href="{{ print ("/") (.Params.novel) }}">Index</a> | 
+        {{if eq (int .Params.hasn) 0}}    
+            <a href="{{ print ("/") (.Params.novel) }}"> Next </a>
+        {{else}}
+        <a  href="{{ print ("/post/" ) (.Params.novel) ("-") (add (int .Params.raw )  (int .Params.hasn)) }}"> Next</a>  </p>
+        {{end}}
     </main>
   {{ partial "disqus.html" . }}
 {{ end }}
