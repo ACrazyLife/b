@@ -14,9 +14,13 @@ Royalroad: https://www.royalroad.com/fiction/42422/where-did-it-go-wrong
 
 Webnovel: https://www.webnovel.com/book/where-did-it-go-wrong_19876166905592005
 
+
+[Timeline](/post/timeline-wdigw)
+===
+
 ---
 Table of Contents
----
+===
 - [Chapter 40](/post/wdigw-40)
 - [Chapter 41](/post/wdigw-41)
 - [Chapter 42](/post/wdigw-42)

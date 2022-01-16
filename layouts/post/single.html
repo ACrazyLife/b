@@ -40,7 +40,7 @@
 
 
 
-   
+{{if .Params.novel}}   
     <p style="text-align:center"> 
         {{if eq  (int .Params.hasp ) 0}}
             <a href="{{ print ("/") (.Params.novel) }}"> Prev </a>
@@ -54,11 +54,11 @@
         {{else}}
         <a  href="{{ print ("/post/" ) (.Params.novel) ("-") (add (int .Params.raw )  (int .Params.hasn)) }}"> Next</a>  </p>
         {{end}}   
-
+{{end}}
     {{ .Content }}
 
 
-   
+{{if .Params.novel}}   
       <p style="text-align:center"> 
         {{if eq  (int .Params.hasp ) 0}}
             <a href="{{ print ("/") (.Params.novel) }}"> Prev </a>
@@ -72,6 +72,7 @@
         {{else}}
         <a  href="{{ print ("/post/" ) (.Params.novel) ("-") (add (int .Params.raw )  (int .Params.hasn)) }}"> Next</a>  </p>
         {{end}}
+{{end}}
     </main>
   {{ partial "disqus.html" . }}
 {{ end }}
