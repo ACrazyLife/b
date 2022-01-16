@@ -17,6 +17,9 @@ Webnovel: https://www.webnovel.com/book/where-did-it-go-wrong_19876166905592005
 ---
 Table of Contents
 ---
+- [Chapter 40](/post/wdigw-40)
+- [Chapter 41](/post/wdigw-41)
+- [Chapter 42](/post/wdigw-42)
 - [Chapter 43](/post/wdigw-43)
 ---
 
